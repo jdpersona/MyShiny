@@ -6,7 +6,8 @@ install.packages("plotly", dependencies=TRUE)
 install.packages("ggplot2", dependencies=TRUE)  
 install.packages("data.table", dependencies=TRUE)
 install.packages("magrittr", dependencies=TRUE)  
-install.packages("highcharter", dependencies=TRUE)  
+install.packages("highcharter", dependencies=TRUE)
+install.packages("git2r",dependencies=TRUE)
  
 
 
