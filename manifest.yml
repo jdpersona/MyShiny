@@ -5,6 +5,6 @@ applications:
   instances: 1
   buildpack: git://github.com/beibeiyang/cf-buildpack-r.git
   env:
-    CRAN_MIRROR: https://cran.cnr.berkeley.edu
+    CRAN_MIRROR: "http://mran.revolutionanalytics.com"
     CF_STAGING_TIMEOUT: 9999
     CF_STARTUP_TIMEOUT: 9999
