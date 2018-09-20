@@ -8,8 +8,8 @@ spec:
   template:
     metadata:
       labels:
-        app: shiny-docker
+        app: shinydocker
     spec:
       containers:
-      - name: shiny-docker
-        image: registry.eu-de.bluemix.net/shiny-tutorial/shiny-docker:latest
+      - name: shinydocker
+        image: registry.ng.bluemix.net/shinyapps/shinydocker:mytag
